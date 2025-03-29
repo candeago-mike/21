@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'casino'; /* Donne un nom à ta police */
+    src: url('casino_2/CasinoFlat.ttf') format('truetype'); /* Chemin vers la police */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+   
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.tablepoker img{
+    max-width: 100%;
+}
+
+        .card-tout {
+            display: flex;
+            justify-content: left;
+            
+            height: 100vh;
+            background-color: #f5f5f5;
+            padding: 50px;
+            
+        }
+        .card {
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            border-radius: 10px;
+            border: 2px solid black;
+            position: relative;
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .card::before, .card::after {
+            font-size: 24px;
+            color: red;
+            position: absolute;
+        }
+        .card::before {
+            top: 10px;
+            left: 10px;
+        }
+        .card::after {
+            bottom: 10px;
+            right: 10px;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #35703F;
+            text-transform: uppercase;
+        }
+        .content {
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: justify;
+            font-size: 14px;
+        }
+        .letter {
+            position: absolute;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .letter.top {
+            top: 10px;
+            left: 30px;
+        }
+        .letter.bottom {
+            bottom: 10px;
+            right: 30px;
+        }
+.presentation{
+    display: flex;
+}
+.imageju {
+    width: 60%;
+    height: 70%;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.affiche{
+    width: 100%;
+    
+}
+.footer {
+    background-color: #1c1c1c;
+    padding: 40px 20px;
+    text-align: center;
+}
+.footer h2, .footer h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #f4b400;
+}
+.footer p, .footer ul {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #bbbbbb;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer li {
+    margin: 5px 0;
+}
+.footer .social-icons {
+    margin: 15px 0;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
